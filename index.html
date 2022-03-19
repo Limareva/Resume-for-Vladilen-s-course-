@@ -7,71 +7,85 @@
     <meta name="keyword" content="cv">
     <meta name="description" content="Это сайт - резюме">
     <title>Altin Katrin</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="ava.jpg" alt="AltinAvatar" width="300">
-    <h1>Altin Katrin _ photo</h1>
-    <p><em>Мне нравятся творческие эксперименты</em></p>
-    <p>Я начинающий <strong>фотограф</strong> и <strong>модель</strong></p>
-    <h4>Социальные сети:</h4>
-    <a href="https://vk.com/kate_limareva" target="_blank">ВКонтакте</a>
-    |
-    <a href="" target="_blank">Telegram</a>
-    <h3>Хобби:</h3>
-    <ol>
-        <li>Чтение художественной литературы</li>
-        <li>Пробежки по набережной</li>
-        <li>Походы в горы</li>
-        <li>Мудрено или беспочвенно рассуждать</li>
-    </ol>
-    <h3>Опыт:</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Тема</th>
-                <th>Роль</th>
-                <th>Год</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Девушка из Италии</td>
-                <td>Фотограф</td>
-                <td>2021</td>
-            </tr>
-            <tr>
-                <td>Брутальный парень</td>
-                <td>Фотограф</td>
-                <td>2021</td>
-            </tr>
-            <tr>
-                <td>Путешественница</td>
-                <td>Модель</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Персонаж фильма</td>
-                <td>Фотограф</td>
-                <td>2022</td>
-            </tr>
-        </tbody>    
-    </table>
-    <h3>Связаться со мной:</h3>
-    <form action="/">
-        <div>
-            <label for="name">Ваше имя</label>
-            <input type="text" id="name" placeholder="Введите имя">
-        </div>
-        <div>
-            <label for="email">Ваш email</label>
-            <input type="email" id="email" placeholder="Введите email">
-        </div>
-        <div>
-            <label for="message">Введите сообщение</label>
-            <br>
-            <textarea id="message" cols="30" rows="10" placeholder="Введите сообщение"></textarea>
-        </div>
-        <input type="submit" value="Отправить">
-    </form>
+    <div class="ava">
+        <img class="ava" src="ava.jpg" alt="AltinAvatar">
+    </div>
+    <div class="all_info">
+        <div class="header">
+            <h1>Altin Katrin _ photo</h1>
+            <p><em>Мне нравятся творческие эксперименты</em></p>
+            <p>Я начинающий <strong>фотограф</strong> и <strong>модель</strong></p>
+        </div>    
+    
+        <div class="social">
+            <a href="https://vk.com/kate_limareva" target="_blank">ВКонтакте</a>
+            <a href="" target="_blank">Telegram</a>
+        </div>    
+        <div class="hobby">   
+            <h3>Хобби:</h3>
+            <ol class="list">
+                <li>Чтение художественной литературы</li>
+                <li>Пробежки по набережной</li>
+                <li>Походы в горы</li>
+                <li>Мудрено или беспочвенно рассуждать</li>
+            </ol>
+        </div> 
+        <div class="experience">  
+            <h3>Опыт:</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Тема</th>
+                        <th>Роль</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Девушка из Италии</td>
+                        <td>Фотограф</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td>Брутальный парень</td>
+                        <td>Фотограф</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td>Путешественница</td>
+                        <td>Модель</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td>Персонаж фильма</td>
+                        <td>Фотограф</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>    
+            </table>
+        </div>  
+        <div class="call_me">    
+            <h3>Связаться со мной:</h3>
+            <form action="/">
+                <div class="name">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+                <div class="email">
+                    <label for="email">Ваш email</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+                <div class="message">
+                    <textarea id="message" placeholder="Введите сообщение"></textarea>
+                </div>
+                
+            </form>
+            <input class="send" type="submit" value="Отправить">
+        </div> 
+    </div>   
 </body>
 </html>
+

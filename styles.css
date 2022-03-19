@@ -1,0 +1,141 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+    resize: none;
+    color: white;
+    background: rgb(12, 12, 12);
+    display: flex;
+    justify-content: center;
+    width: 98vw;
+}
+h1{
+    cursor: pointer;
+}
+h1:hover{
+    color: rgb(187, 113, 2);
+}
+.ava{
+    font-size: 1vw;
+    width: 40vw;
+    margin: 1vw;
+    padding: 0;
+}
+.all_info{
+    margin: 0vw;
+    padding: 1vw;
+    width: 40vw;
+}
+.header{
+    padding: 0vw;
+    margin: 0vw;
+    text-align: center;
+}
+.social{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+h4{
+    color: white;
+    padding: 0.3vw;
+}
+a{
+    border: 0.1vw solid rgb(187, 113, 2);
+    border-radius: 5vw;
+    background: rgb(187, 113, 2);
+    padding: 0.5vw;
+    color: white;
+    width: 10vw;
+    height: 3vh;
+    margin: 0.3vw;
+}
+a:hover{
+    background: black;
+    color: rgb(187, 113, 2);
+}
+.hobby{
+    padding: 0vw;
+    margin: 1vw;
+    margin-left: 4.5vw;
+    cursor: pointer;
+}
+.list{
+    border-radius: 50%;
+    padding: 1vw ;
+}
+li{
+    padding: 0.2vw;
+}
+li:hover{
+    color: rgb(119, 119, 119);
+}
+.experience{
+    padding: 0vw;
+    margin: 1vw;
+    font-size: 0.8vw;
+    width: 34vw;
+    margin-left: 4vw;
+    cursor: pointer;
+}
+.call_me{
+    padding: 0vw;
+    margin: 1vw;
+    text-align: center;
+}
+th{
+    border: 0.1vw solid rgb(187, 113, 2);
+    border-top-left-radius: 3vw;
+    border-top-right-radius: 3vw;
+    background: rgb(187, 113, 2);
+    color: white;
+}
+td:hover{
+    color: rgb(119, 119, 119);
+}
+td{
+    border: 0.1vw solid rgb(187, 113, 2);
+    width: 10vw;
+    padding: 1vw;
+    text-align: center;
+}
+.send{
+    border: 0.1vw solid rgb(187, 113, 2);
+    border-radius: 5vw;
+    background: rgb(187, 113, 2);
+    color: white;
+    cursor: pointer;
+    font-size: 1vw;
+}
+.send:hover{
+    background: black;
+    color: rgb(187, 113, 2);
+}
+.call_me{
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+}
+.name{
+    width: 40vw;
+    padding: 0.5vw;
+}
+input{
+    border: 0.1vw solid;
+    border-radius: 3vw;
+    padding: 0.3vw;
+}
+.email{
+    width: 40vw;
+    padding: 0.5vw;
+}
+.message{
+    width: 40vw;
+    resize: none;
+    font-size: 1vw;
+}
+textarea{
+    width: 20vw;
+    height: 10vh;
+    padding: 0.5vw;
+    margin: 1vw;
+}
